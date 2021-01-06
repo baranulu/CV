@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(14, 13, 13);
+}
+.container{
+    max-width: 1200px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: 10%;
+    width: 98%;
+}
+.row{
+    display: block;
+    flex-wrap: wrap;
+    margin-right: -20px;
+    margin-left: -20px;
+    float: left;
+    width: 65%;
+
+}
+.myname{
+    margin-top: 125px;
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+.myname h1 {
+    color: seashell;
+    font-family: "stolzl";
+    line-height: 30px;
+    font-size: 32px;
+    font-weight: 200;
+    letter-spacing: 6px;
+    text-shadow: 1px 1px ghostwhite;
+    
+}
+
+.entryparagraph p{
+    
+        font-size: 24px;
+        font-weight: 200;
+        line-height: 30px;
+        color: white;
+        font-family: "stolzl";
+        width: 61%;
+        letter-spacing: 2px;
+        
+}
+.entryparagraph, .contact,.workingfor,.keywords,.outro{
+    margin-bottom: 110px;
+}
+
+
+.contact p,.workingfor p,.keywords p{
+    margin: 0;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "stolzl";
+    color: white;
+    letter-spacing: 2px;
+    width: 50%;
+  }
+  .outro p{
+    margin: 0;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 200;
+    font-family: "stolzl";
+    color: white;
+    letter-spacing: 2px;
+    width: 61%;
+
+  }
+  .contact h2, .keywords h2,.workingfor h2,.outro h2
+  {
+      margin: 0px;
+    font-weight: 100;
+    letter-spacing: 12px;
+    font-family: "stolzl";
+    color: white;
+    margin-top: 110px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    
+  }
+  
+  a{
+    color: white;
+    transition: .2s;
+    text-decoration: none;
+  }
+
+  .contact p a:hover
+  {
+      transition: 0.3px;
+      color: aqua;
+  }
+    @media screen and (max-width: 600px)
+    {
+        
+        .entryparagraph p{
+            font-size: 16px;
+            width: 125%;
+            font-family: "stolzl";
+        }
+        
+        .outro p
+        {
+            font-size: 16px;
+            width: 125%;
+            font-family: "stolzl";
+        }
+        .myname h1 {
+            font-size: 16px;
+            font-family: "stolzl";
+            width: 145%;
+        }
+
+        @media screen and (min-width: 600px)
+        {
+            .entryparagraph p
+            {
+                width: 100%;
+                font-family: "stolzl";
+            }
+            .outro p
+            {
+                width: 100%;
+                font-family: "stolzl";
+            }
+            .myname h1 {
+                font-size: 18px;
+                font-family: "stolzl";
+                width: 100%
+            }
+        }
+}
+    
+

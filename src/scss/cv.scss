@@ -1,0 +1,834 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "stolzl";
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: #19181a;
+}
+nav{
+  background:rgb(30, 30, 30);
+  line-height: 80px;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  display: none;
+}
+label{
+  line-height: 80px;
+  font-size: 30px;
+  color: white;
+  font-weight: 200;
+  margin-left: 50px;
+cursor: pointer;
+position: center;
+}
+nav .namelabel{
+  display: hidden;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  line-height: 80px;
+  margin: 0 10px;
+}
+nav ul li a{
+  color:rgb(71, 71, 71);
+  font-size: 20px;
+  padding: 6px 15px;
+  font-weight: 600;
+  background-color: rgb(30, 30, 30);
+  border-radius: 3px;
+}
+nav ul li a:hover{
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+.side-menu{
+  position: fixed;
+  background: #19181a;
+  width: 205px;
+  height: auto;
+   /* margin-top: 80px;  */
+   background-color:  rgb(30, 30, 30);
+   box-shadow: 1px 1px black;
+}
+.side-menu center img{
+  height: 230px;
+  width: 100%;
+  border-radius: 0%;
+  /* margin-top: 26px; */
+/* border: 2px solid black; */
+border: 1px solid   aqua;
+}
+.side-menu #sidebarname{
+  font-size: 16px;
+  color: rgb(100, 100, 100);
+  margin-bottom: 15px;
+  font-weight: bolder;
+}
+.side-menu h6 {
+  color: rgb(100, 100, 100);
+  font-size: 12px;
+  font-weight: lighter;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.side-menu h6 i {
+  margin-right: 8px;
+}
+.side-menu center h2{
+color: rgb(100, 100, 100);
+  font-family: "stolzl";
+  font-weight: lighter;
+  font-size: 20px;
+}
+.side-menu h4 {
+  font-size: 12px;
+  font-family: "stolzl";
+ margin-right: 50px;
+  color: rgb(100, 100, 100);
+  font-weight: lighter;
+}
+.side-menu h4 i {
+  font-size: 16px;
+  color: rgb(100, 100, 100);
+  margin-right: 5px;
+}
+.side-menu  a{
+  display: block;
+  line-height: 40px;
+  transition: 0.5s;
+  border-bottom: 1px solid black;
+}
+.side-menu .pages  a:hover{
+      margin-left: 20px;
+      border-bottom: 1px solid white;
+}
+.side-menu  a span:hover {
+   color: white;
+   font-size: 18px;
+}
+.side-menu  span{
+  font-size: 16px;
+  margin-left: 8px;
+  color: rgb(90, 90, 90);
+  font-family: "stolzl";
+}
+.side-menu  i{
+  font-size: 12px;
+  margin-left: 40px;
+  color: rgb(90, 90, 90);
+}
+nav .menu-bar{
+  float: right;
+  margin-top: 20px;
+  display: none;
+  margin-right: 20px;
+}
+nav .namelabel {
+  float: left;
+  font-size: 18px;
+  font-family: "stolzl";
+  margin-left: 25px;
+  display: none;
+}
+#menu{
+  display: none;
+}
+.side-menu .socialmedias 
+{
+  margin-top: 180px;
+  display: inline-flex;
+}
+.side-menu .socialmedias #github{
+  margin-bottom: 10px;
+  border-bottom: hidden;
+}
+.socialmedias #github i {
+  font-size: 20px;
+}
+.socialmedias #linkedin i {
+  font-size: 20px;
+}
+.socialmedias #instagram i {
+  font-size: 20px;
+}
+.side-menu .socialmedias a i:hover {
+  margin-bottom: 5px;
+  color: aqua;
+}
+ ///////////END OF NAV///////////////
+.allcontent {
+ margin-left: 205px;
+
+ width: auto;
+}
+#section1{
+    height: 728px;  
+    display: inline-block;
+    width: 100%; 
+}
+#section2{
+    height:  728px; 
+    display: inline-block;
+    width: 100%; 
+}
+#section3{
+    height: 728px; 
+    display: inline-block;
+    width: 100%;  
+}
+#section4{
+    height: 728px; 
+    display: inline-block;
+    width: 100%; 
+}
+#section5{
+  height: 728px;
+  display: inline-block;
+  width: 100%;
+}
+ h2{
+ text-align: center;
+  padding: 0px;
+  letter-spacing: 2px;
+  font-size: 22px;
+  color: white;
+  margin-top: 100px;
+  width: 50%;
+  font-weight: bolder;  
+ }
+
+h4{
+  text-align: center;
+  font-size: 24px;
+  margin-top: 50px;
+}
+ h3
+ {     
+  text-transform: uppercase;
+   margin-top: 150px;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 0.5px 0.5px rgb(202, 202, 202);
+  letter-spacing: 2px;
+  color: rgb(240, 238, 238);
+ }
+
+#homecontent p
+{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(240, 238, 238);
+}
+#section1 #entryparagraph{
+  
+  font-size: 16px;
+  width: 75%;
+  text-align: justify;
+  margin: 100px;
+  line-height: 25px;
+  margin-left: 12%;
+}
+#homecontent h6 {
+   font-size: 16px;
+   font-weight: bolder;
+   letter-spacing: 5px;
+   color: aqua;
+   text-align: center;
+}
+#section2 #education{
+    list-style: none;
+    margin: 100px;
+    text-align: center;
+}
+#section2 #courses {
+  margin-top: 20px;
+}
+#section2 #education p{
+  font-size: 18px;
+  display: block;
+  margin: 5px;
+  color: rgb(240, 238, 238);
+  
+}
+#section2 #education h5 {  
+  color: whitesmoke;
+  letter-spacing: 4px;
+  font-size: 12px;
+  font-weight: bolder; 
+}
+#section2 #education h5 i {
+  font-size: 18px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+#section2 #education p span {
+    font-size: 12px;
+    font-weight: lighter;
+    color: aqua;
+}
+#section2 #education #university{
+  
+
+}
+
+#section2 #certificate{
+  margin-top: 20px;
+}
+
+#section3 #project{
+    margin-left: 100px;
+    width: 100%;
+    float: left; 
+    
+}
+#section3 #project p {
+    font-size: 16px;
+    width: 75%;
+    text-align: justify;
+    margin: 100px;
+    line-height: 25px;
+    color: rgb(240, 238, 238);  
+}
+#section3 #project ul {
+    list-style: none;
+    margin: 50px; 
+}
+#section3 #project ul li {
+    display: block;
+    width: auto;
+    margin: 20px;
+    margin-top: 0px;
+    margin-left: 150px;
+    font-size: 15px;
+}
+
+#section3 #project ul li a {
+    color: black;
+    margin-bottom: 10px;
+    color: rgb(240, 238, 238);
+    
+ 
+}
+#section3 #project ul li a span {
+ color: aqua;
+ font-size: 12px;
+}
+#section3 #project ul li a:hover
+{
+    color: aqua;
+}
+//////SECTİON 3 END///////
+.skills {
+  margin-top: 60px;
+}
+.container{
+  width: 70%;
+  height: 10px;
+  border-radius: 10px;
+  border: 3px solid #0f0f11;
+  margin: 20px auto;
+  
+}
+#section4 h6{
+  margin-left: 15%;
+  color: whitesmoke;
+  font-size: 14px;
+  letter-spacing: 5px;
+  font-weight: bolder;
+  line-height: 15px;
+  font-family: "stolzl";
+  
+}
+.Bar{
+box-shadow: 0px 0px 10px 4px aqua;
+height: 4px;
+margin: 4px 0px;
+border-radius: 2px;
+background-color: #19181a;
+}
+.c{
+  animation: c 2s;
+  width: 100%;
+}
+@keyframes c {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 100%
+  }
+}
+.core{
+  animation: core 2s;
+  width: 95%;
+}
+@keyframes core {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 95%
+  }
+}
+.mvc{
+  animation: mvc 2s;
+  width: 95%;
+}
+@keyframes mvc {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 95%
+  }
+}
+.sql{
+  animation: sql 2s;
+  width: 85%;
+}
+@keyframes sql {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 85%
+  }
+}
+.html{
+  animation: html 2s;
+  width: 80%;
+}
+@keyframes html {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%
+  }
+}
+.css{
+  animation: css 2s;
+  width: 80%;
+}
+@keyframes css {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%
+  }
+}
+.boot{
+  animation: boot 2s;
+  width: 70%;
+}
+@keyframes boot {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 70%
+  }
+}
+.js{
+  animation: js 2s;
+  width: 50%;
+}
+@keyframes js {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 50%
+  }
+}
+
+
+//////SECTİON 4 END///////////////
+#contact h6{
+  color: whitesmoke;
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 150px;
+}
+#contact #entrysentence {
+  text-align: center;
+  line-height: 16px;
+  font-weight: bolder;
+  color: whitesmoke;
+  font-size: 12px;
+  letter-spacing: 4px;
+  margin-top: 30px;
+
+
+}
+#contact h6 span{
+  color: aqua;
+  
+}
+#contact #mail {
+  text-align: center;
+  margin-top: 30px;
+}
+#contact #mail a {
+  color: whitesmoke;
+  font-size: 16px;
+  font-weight: bolder;
+}
+#contact #mail a:hover{
+  color: aqua;
+  font-size: 16.4px;
+}
+#contact p {
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 100px;
+  letter-spacing: 4px;
+  font-size: 12px;
+  font-weight: bolder;
+}
+#contact ul{
+  text-align: center;
+  margin-top: 30px;
+}
+#contact ul li {
+  margin: 10px;
+}
+#contact ul li a{
+  color: whitesmoke;
+  letter-spacing: 4px;
+}
+#contact ul li a:hover {
+  color: aqua;
+}
+@media (max-width:700px){
+  *{
+    overflow-y:scroll;
+  }
+  .side-menu a:checked {
+    display: none;
+  }
+  .side-menu center img{
+    display: none;
+  }
+  .side-menu center {
+    margin-top: 100px;
+  }
+  .side-menu center #sidebarname {
+    font-size: 24px;
+    text-align: center;
+  }
+  .side-menu  h6 {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  
+  nav .namelabel {
+    float: left;
+    font-size: 20px;
+    font-family: "stolzl";
+    margin-left: 25px;
+    display: block;
+    font-weight: bolder;
+
+}
+nav{
+    display: block;
+    width: 100%;
+    background-color: #19181a;
+}
+
+
+nav ul{
+
+    display: none;
+}
+
+
+.side-menu{
+
+    width: 100%;
+    text-align: center;
+    left:100%;
+    background-color:#19181a;
+    transition: all 0.5s;
+    margin-top: 80px;
+    height: 720px;
+    
+}
+
+.side-menu a i{
+
+    display: none;
+}
+
+.side-menu a span{
+
+    display: block;
+}
+
+nav .menu-bar{
+
+    display: block;
+}
+
+#menu:checked ~ .side-menu{
+
+  left:0;
+
+}
+            //// ////SIDE BAR END ///////
+.allcontent{
+  margin: 0px;
+  margin-top: 80px;
+}
+//SECTİON1//
+#section1 h3 {
+  font-size: 18px;
+  margin-top: 100px;
+}
+#section1 p {
+  font-size: 16px;
+  margin-bottom: 20px; 
+}
+#section1 #entryparagraph{
+  font-size: 13px;
+  width:90%;
+  line-height: 22px;
+  text-align: start;
+  margin: 50px;
+  margin-left: 10%;
+  
+}
+#section1 h6 {
+  margin-top: 20px;
+}
+//SECTİON2//
+#section2 #education {
+  margin: 0px;
+  width: 96%;
+  margin-top: 80px;
+  padding-left: 10px;
+  text-align: start;
+}
+#section2 #education p {
+ font-size: 14px;
+ margin: 10px;
+}
+//SECTİON3//
+#section3 #project {
+  margin: 0px;
+}
+#section3 #project p {
+  margin: 80px;
+  margin-left: 5px;
+  width: 96%;
+  font-size: 14px;
+  line-height: 35px;
+}
+#section3 #project ul {
+  margin: 0px;
+
+}
+#section3 #project ul li {
+  margin: 0px 20px 20px 10px;
+  font-size: 14px;
+}
+/////////////SECTİON4///////////////
+.skills {
+  margin-top: 110px;
+}
+//////section5//////////
+
+#contact h6 {
+  font-size: 12px;
+}
+#contact #entrysentence{
+  width: 80%;
+  margin-left: 10%;
+  font-size: 10px;
+}
+}
+@media (min-width:700px)
+{
+  .side-menu a i:hover{
+    color: white;
+}
+
+    .side-menu a span{
+
+        display: none;
+    }
+
+    .side-menu center{
+
+        display: none;
+    }
+    .side-menu h4
+    {
+        display: none;
+    }
+
+    .side-menu{
+
+        width: 100px;
+        height: 728px;
+        
+    }
+    .side-menu a i{
+  
+         display: block;
+        line-height: 80px;
+        text-align: center;
+        margin-left: 0;
+        font-size: 35px;
+    }
+    .side-menu h6 {
+      display: none;
+    }
+    .side-menu .pages a {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .side-menu .socialmedias {
+      width: 100%;
+      margin-top: 115px;
+    }
+    .side-menu .socialmedias a {
+      margin-left: 13px;
+    }
+    /////////SİDEBAR END/////////
+    .allcontent {
+      margin-left: 100px;
+    }
+    ///SECTİON1///
+    h3 {
+      margin-top: 50px;
+    }
+    #section1 #entryparagraph {
+      width:90%;
+      margin-left: 5%;
+    }
+    ///SECTİON2///
+    #section2 #education{
+      margin-top: 110px;
+      list-style: none;
+      text-align: left;
+      margin-left: 10%;
+      width: 85%;
+    }
+    #section2 #education p {
+      font-size: 14px;
+    }
+    #section2 #education p span {
+      font-size: 10px;
+    }
+    #section3 #project {
+      margin: 0px;
+    }
+    #section3 #project p {
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 100px;
+    }
+    #section3 #project ul li {
+      margin-left: 0px;
+    }
+}
+@media (min-width:1024px){
+
+  .side-menu a span{
+
+    display: block;
+}
+
+.side-menu center{
+
+    display: block;
+}
+.side-menu h4
+{
+    display: block;
+}
+
+.side-menu{
+
+    width: 205px;
+    height: 728px;
+    
+}
+.side-menu h6 {
+  display: block;
+}
+.side-menu a i{
+  float: left;
+  font-size: 18px;
+  margin: 10px;
+  color: rgb(90, 90, 90);
+  line-height: 20px;
+}
+.side-menu .pages a {
+  margin: 0px;
+}
+.side-menu .socialmedias 
+{
+  margin-top: 180px;
+  display: inline-flex;
+}
+.side-menu .socialmedias{
+  margin-bottom: 10px;
+  border-bottom: hidden;
+  margin-left: 20px;
+  
+}
+.socialmedias #github i {
+  font-size: 20px;
+  
+}
+.socialmedias #linkedin i {
+  font-size: 20px;
+}
+.socialmedias #instagram i {
+  font-size: 20px;
+}
+.side-menu .socialmedias a i:hover {
+  margin-bottom: 5px;
+  color: aqua;
+}
+///SİDEBAR END///
+.allcontent {
+  margin-left: 205px;
+  // float: right;
+  width: auto;
+  background-color: #19181a;
+}
+//section2//
+#section2 #education p{
+  font-size: 18px;
+  display: block;
+  margin: 5px;
+  color: rgb(240, 238, 238);
+  
+}
+
+}
+
+
+ 
+
+
