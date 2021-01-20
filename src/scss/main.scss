@@ -48,6 +48,14 @@ body{
 .entryparagraph, .contact,.workingfor,.keywords,.outro{
     margin-bottom: 110px;
 }
+.checkcv {
+    font-size: 8px !important; 
+    color: aqua !important;
+    text-transform: uppercase;
+}
+.cv {
+    width: 100% !important;
+}
 
 
 .contact p,.workingfor p,.keywords p{
@@ -114,6 +122,10 @@ body{
             font-family: "stolzl";
             width: 145%;
         }
+        .checkcv {
+            width: 100% !important;
+        }
+    
 
         @media screen and (min-width: 600px)
         {
@@ -133,6 +145,6 @@ body{
                 width: 100%
             }
         }
-}
+    }
     
 

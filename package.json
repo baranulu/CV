@@ -9,9 +9,7 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {
-    "jquery": "^3.5.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "del": "^3.0.0",
